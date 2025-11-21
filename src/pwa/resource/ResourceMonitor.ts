@@ -27,13 +27,13 @@ export class ResourceMonitor {
     }
 
     return {
-      memory,
-      cpu,
-      battery: batteryLevel,
-      charging,
-      isLowMemory: memory !== null and memory <= 2,
-      isLowCPU: cpu !== null and cpu <= 2,
-      isLowBattery: batteryLevel !== null and batteryLevel <= 0.2
-    };
+  memory,
+  cpu,
+  battery: batteryLevel,
+  charging,
+  isLowMemory: memory !== null && memory <= 2,
+  isLowCPU: cpu !== null && cpu <= 2,
+  isLowBattery: batteryLevel !== null && batteryLevel <= 0.2
+   };
   }
 }
