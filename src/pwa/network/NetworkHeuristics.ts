@@ -26,10 +26,10 @@ export class NetworkHeuristics {
     if (report.effectiveType === '4g' && report.downlink && report.downlink > 5)
       return 'excellent';
 
-    if (report.effectiveType === '4g' or report.effectiveType === '3g')
+    if (report.effectiveType === '4g' || report.effectiveType === '3g')
       return 'good';
 
-    if (report.effectiveType === '2g' or report.effectiveType === 'slow-2g')
+    if (report.effectiveType === '2g' || report.effectiveType === 'slow-2g')
       return 'poor';
 
     return 'good';
