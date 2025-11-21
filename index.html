@@ -5,25 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dreamdrop RC</title>
 
-    <!-- PWA manifest -->
+    <!-- PWA Manifest -->
     <link rel="manifest" href="/manifest.json" />
 
+    <!-- Icons -->
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+    <meta name="theme-color" content="#ffffff" />
   </head>
 
   <body>
-    <div id="root"></div>
+    <!-- App mountpoint -->
+    <div id="app"></div>
 
-    <!-- Vite/React entrypoint (Vite herschrijft dit automatisch naar /assets/*.js in productie) -->
+    <!-- Vite entry (wordt tijdens build vervangen door /assets/js/...) -->
     <script type="module" src="/src/main.ts"></script>
 
-    <!-- Service worker initialisatie -->
+    <!-- Service Worker -->
     <script>
       if ("serviceWorker" in navigator) {
-        navigator.serviceWorker.register("/service-worker.js").then(reg => {
-          if (navigator.serviceWorker.controller) {
-            navigator.serviceWorker.controller.postMessage({ type: "runtime-init" });
-          }
-        });
+        navigator.serviceWorker
+          .register("/service-worker.js")
+          .then((reg) => {
+            if (navigator.serviceWorker.controller) {
+              navigator.serviceWorker.controller.postMessage({
+                type: "runtime-init",
+              });
+            }
+          })
+          .catch((err) =>
+            console.error(
+              "[Dreamdrop] Service worker kon niet worden geregistreerd",
+              err
+            )
+          );
       }
     </script>
   </body>
