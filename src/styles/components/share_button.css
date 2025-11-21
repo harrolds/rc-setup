@@ -1,0 +1,13 @@
+/* C-25.4 migrated with global tokens */
+/* C-16.0 Share Button */
+
+.share-btn {
+  margin-top:var(--dd-space-md);
+  padding:var(--dd-space-sm) var(--dd-space-md);
+  border-radius: var(--radius-m);
+  background: var(--color-accent);
+  color:white;
+  border:none;
+  width:100%;
+  font-size:var(--dd-space-lg);
+}

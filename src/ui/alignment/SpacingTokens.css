@@ -1,0 +1,20 @@
+
+:root {
+  --dd-space-2xs: 2px;
+  --dd-space-xs: 4px;
+  --dd-space-sm: 8px;
+  --dd-space-md: 12px;
+  --dd-space-lg: 16px;
+  --dd-space-xl: 24px;
+  --dd-space-2xl: 32px;
+
+  --dd-safe-top: env(safe-area-inset-top);
+  --dd-safe-bottom: env(safe-area-inset-bottom);
+}
+
+/* Global UI spacing normalizer */
+.dd-card { padding: var(--dd-space-lg); }
+.dd-panel { padding: var(--dd-space-xl); }
+.dd-bottom-sheet { padding: var(--dd-space-lg); }
+.dd-right-panel { padding: var(--dd-space-lg); }
+.dd-dashboard-vr { margin-top: var(--dd-space-xl); margin-bottom: var(--dd-space-xl); }

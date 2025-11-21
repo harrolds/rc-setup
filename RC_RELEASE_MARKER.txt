@@ -1,0 +1,6 @@
+
+C-26.4.3 — Final RC ZIP Packaging
+This file confirms:
+- RC packaging executed
+- Manifest snapshot created
+- Release Candidate boundary established

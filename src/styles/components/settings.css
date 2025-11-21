@@ -1,0 +1,25 @@
+/* C-25.4 migrated with global tokens */
+/* C-17.2 Personalization Settings UI */
+
+.settings-page {
+  padding:var(--dd-space-lg);
+}
+
+.settings-item {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:var(--dd-space-md) 0;
+  border-bottom:var(--dd-space-2xs) solid var(--color-border);
+}
+
+.settings-save-btn {
+  margin-top:var(--dd-space-lg);
+  padding:var(--dd-space-md);
+  width:100%;
+  background:var(--color-accent);
+  color:white;
+  border:none;
+  border-radius:var(--radius-m);
+  font-size:var(--dd-space-lg);
+}

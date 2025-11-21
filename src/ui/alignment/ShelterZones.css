@@ -1,0 +1,22 @@
+
+/* C-25.1 — iOS Shelter Zone Fixes */
+:root {
+  --dd-safe-top: env(safe-area-inset-top);
+  --dd-safe-bottom: env(safe-area-inset-bottom);
+}
+
+.dd-safe-top    { padding-top: var(--dd-safe-top); }
+.dd-safe-bottom { padding-bottom: var(--dd-safe-bottom); }
+
+/* Fullscreen viewport correction */
+html, body {
+  padding-top: var(--dd-safe-top);
+  padding-bottom: var(--dd-safe-bottom);
+  height: 100%;
+  margin: 0;
+}
+
+.dd-panel, .dd-bottom-sheet, .dd-right-panel {
+  padding-bottom: calc(var(--dd-space-lg) + var(--dd-safe-bottom));
+}
+

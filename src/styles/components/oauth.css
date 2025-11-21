@@ -1,0 +1,9 @@
+/* C-25.4 migrated with global tokens */
+/* Google OAuth Button */
+.oauth-btn.google {
+  padding: var(--dd-space-md);
+  background: #db4437;
+  color:white;
+  border:none;
+  border-radius:var(--radius-m);
+}

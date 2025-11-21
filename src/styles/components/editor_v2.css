@@ -1,0 +1,23 @@
+/* C-25.4 migrated with global tokens */
+/* C-19.0 Dream Editor Foundation V2 */
+
+.editor-v2 { padding:var(--dd-space-lg); }
+.editor-text {
+  width:100%;
+  min-height:var(--dd-space-2xl);
+  padding:var(--dd-space-md);
+  border:var(--dd-space-2xs) solid var(--color-border);
+  border-radius:var(--radius-m);
+}
+.editor-actions {
+  margin-top:var(--dd-space-lg);
+  display:flex;
+  justify-content:flex-end;
+}
+.editor-btn {
+  background:var(--color-accent);
+  color:white;
+  padding:var(--dd-space-sm) var(--dd-space-lg);
+  border:none;
+  border-radius:var(--radius-m);
+}

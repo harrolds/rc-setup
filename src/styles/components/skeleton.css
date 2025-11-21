@@ -1,0 +1,64 @@
+/* C-25.4 migrated with global tokens */
+/* C-11.4 Skeleton Loading System */
+
+.skeleton {
+  background: var(--color-skeleton);
+  border-radius: var(--radius-s);
+  position: relative;
+  overflow: hidden;
+}
+
+.skeleton.shimmer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 150%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255,255,255,0.12),
+    transparent
+  );
+  animation: shimmer-slide 1.4s infinite;
+}
+
+@keyframes shimmer-slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(150%); }
+}
+
+/* Feed skeletons */
+.feed-thumb-skeleton {
+  width: var(--dd-space-2xl);
+  height: var(--dd-space-2xl);
+  border-radius: var(--radius-s);
+}
+
+.feed-line-skeleton {
+  height: var(--dd-space-md);
+  width: 60%;
+  margin-top: var(--dd-space-sm);
+}
+
+/* Detail skeletons */
+.detail-visual-skeleton {
+  width: 100%;
+  height: var(--dd-space-2xl);
+  border-radius: var(--radius-m);
+}
+
+.detail-summary-skeleton {
+  width: 100%;
+  height: var(--dd-space-2xl);
+  border-radius: var(--radius-m);
+  margin-top: var(--dd-space-lg);
+}
+
+.detail-transcript-line {
+  height: var(--dd-space-sm);
+  width: 90%;
+  margin-top: var(--dd-space-xs);
+  border-radius: var(--radius-s);
+}

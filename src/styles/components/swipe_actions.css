@@ -1,0 +1,14 @@
+/* C-25.4 migrated with global tokens */
+/* C-15.8 Swipe visual hints */
+
+.dream-card {
+  transition: transform 0.2s ease-out;
+}
+
+.dream-card.swiping-right {
+  background: var(--color-accent-light);
+}
+
+.dream-card.swiping-left {
+  background: var(--color-danger-light);
+}

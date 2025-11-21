@@ -1,0 +1,13 @@
+/* C-25.4 migrated with global tokens */
+/* C-16.2 Reaction Aggregation (Feed Mini Icons) */
+
+.reaction-mini-bar {
+  display:flex;
+  gap:var(--dd-space-sm);
+  margin-top:var(--dd-space-sm);
+  opacity:0.85;
+}
+
+.reaction-mini {
+  font-size:var(--dd-space-md);
+}

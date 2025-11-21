@@ -1,0 +1,29 @@
+/* C-25.4 migrated with global tokens */
+/* C-15.0 Dream Management UI */
+
+.dream-feed {
+  display:flex;
+  flex-direction:column;
+  gap:var(--dd-space-md);
+}
+
+.dream-card {
+  padding:var(--dd-space-lg);
+  background:var(--color-surface);
+  border-radius:var(--radius-m);
+  box-shadow:var(--shadow-1);
+}
+
+.dream-detail img.dream-img {
+  width:100%;
+  border-radius:var(--radius-m);
+  margin:var(--dd-space-md) 0;
+}
+
+.dream-edit input, 
+.dream-edit textarea {
+  width:100%;
+  padding:var(--dd-space-sm);
+  border-radius:var(--radius-s);
+  margin-bottom:var(--dd-space-md);
+}

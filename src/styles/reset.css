@@ -1,0 +1,5 @@
+/* C-25.4 migrated with global tokens */
+/* Reset / Normalize */
+*,*::before,*::after {
+  box-sizing:border-box;
+}

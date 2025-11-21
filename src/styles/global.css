@@ -1,0 +1,14 @@
+/* C-25.4 migrated with global tokens */
+/* Global styles */
+html,body {
+  margin:0;
+  padding:0;
+  background:var(--color-bg);
+  color:var(--color-text-primary);
+  font-size:var(--font-size-m);
+  line-height:var(--line-height-m);
+  font-family: Inter, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { max-width:100%; display:block; }

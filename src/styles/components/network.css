@@ -1,0 +1,26 @@
+/* C-25.4 migrated with global tokens */
+/* C-12.3 Network Banners */
+
+.network-banner {
+  width: 100%;
+  padding: var(--dd-space-sm) var(--dd-space-md);
+  font-size: var(--font-size-s);
+  border-radius: var(--radius-m);
+  margin-bottom: var(--dd-space-md);
+  text-align: center;
+}
+
+.banner-offline {
+  background: #c0392b;
+  color: white;
+}
+
+.banner-weak {
+  background: #d35400;
+  color: white;
+}
+
+.banner-online {
+  background: #27ae60;
+  color: white;
+}

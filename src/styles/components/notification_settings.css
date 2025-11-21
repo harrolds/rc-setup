@@ -1,0 +1,25 @@
+/* C-25.4 migrated with global tokens */
+/* C-17.3 Notification Settings */
+
+.notification-settings {
+  padding:var(--dd-space-lg);
+}
+
+.notif-item {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:var(--dd-space-md) 0;
+  border-bottom:var(--dd-space-2xs) solid var(--color-border);
+}
+
+.notif-save-btn {
+  margin-top:var(--dd-space-lg);
+  width:100%;
+  padding:var(--dd-space-md);
+  background:var(--color-accent);
+  color:white;
+  border:none;
+  border-radius:var(--radius-m);
+  font-size:var(--dd-space-lg);
+}

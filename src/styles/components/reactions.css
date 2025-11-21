@@ -1,0 +1,26 @@
+/* C-25.4 migrated with global tokens */
+/* C-16.1 Reaction Bar */
+
+.reaction-bar {
+  display:flex;
+  justify-content:space-between;
+  margin-top:var(--dd-space-md);
+}
+
+.react-btn {
+  font-size:var(--dd-space-xl);
+  background: var(--color-surface);
+  border:none;
+  padding:var(--dd-space-sm);
+  border-radius: var(--radius-m);
+}
+
+.react-btn.pulse {
+  animation: reactPulse 0.25s ease;
+}
+
+@keyframes reactPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.25); }
+  100% { transform: scale(1); }
+}

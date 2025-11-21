@@ -1,0 +1,48 @@
+
+/* C-25.3 — Theme Polishing */
+
+:root {
+  /* White Whisper Light Theme */
+  --wh-bg: #f8f8fa;
+  --wh-panel: #ffffff;
+  --wh-border: rgba(0,0,0,0.06);
+  --wh-text: #222;
+  --wh-text-soft: #555;
+  --wh-shadow: 0 2px 12px rgba(0,0,0,0.08);
+
+  /* Nocturne Focus Dark Theme */
+  --nf-bg: #0f1116;
+  --nf-panel: #161922;
+  --nf-border: rgba(255,255,255,0.08);
+  --nf-text: #f1f1f1;
+  --nf-text-soft: #b7b7b7;
+  --nf-shadow: 0 2px 16px rgba(0,0,0,0.6);
+}
+
+/* Light */
+.theme-light {
+  background: var(--wh-bg);
+  color: var(--wh-text);
+}
+
+.theme-light .dd-panel,
+.theme-light .dd-bottom-sheet,
+.theme-light .dd-right-panel {
+  background: var(--wh-panel);
+  box-shadow: var(--wh-shadow);
+  border-color: var(--wh-border);
+}
+
+/* Dark */
+.theme-dark {
+  background: var(--nf-bg);
+  color: var(--nf-text);
+}
+
+.theme-dark .dd-panel,
+.theme-dark .dd-bottom-sheet,
+.theme-dark .dd-right-panel {
+  background: var(--nf-panel);
+  box-shadow: var(--nf-shadow);
+  border-color: var(--nf-border);
+}

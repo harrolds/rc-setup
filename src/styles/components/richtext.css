@@ -1,0 +1,16 @@
+/* C-25.4 migrated with global tokens */
+/* C-19.1 Rich Text Toolbar */
+
+.rt-toolbar {
+  display:flex;
+  gap:var(--dd-space-sm);
+  margin-bottom:var(--dd-space-md);
+}
+
+.rt-toolbar button {
+  padding:var(--dd-space-xs) var(--dd-space-sm);
+  background:var(--color-surface);
+  border:var(--dd-space-2xs) solid var(--color-border);
+  border-radius:var(--radius-s);
+  font-weight:bold;
+}

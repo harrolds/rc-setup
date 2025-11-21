@@ -1,0 +1,16 @@
+/* C-25.4 migrated with global tokens */
+/* C-15.1 Feed Filters */
+
+.search-box {
+  width:100%;
+  padding:var(--dd-space-sm);
+  border-radius:var(--radius-s);
+  margin-bottom:var(--dd-space-sm);
+}
+
+.sort-select, .status-select, .fav-select {
+  width:100%;
+  padding:var(--dd-space-sm);
+  border-radius:var(--radius-s);
+  margin-bottom:var(--dd-space-sm);
+}

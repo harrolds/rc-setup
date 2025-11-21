@@ -1,0 +1,6 @@
+/* C-25.4 migrated with global tokens */
+/* C-14.4 Install UI */
+
+.settings-box button[disabled] {
+  opacity:0.5;
+}

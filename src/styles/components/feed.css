@@ -1,0 +1,59 @@
+/* C-25.4 migrated with global tokens */
+/* C-11.2 Component Styling – DreamFeedRenderer */
+
+.dream-feed {
+  display: flex;
+  flex-direction: column;
+  gap: var(--dd-space-lg);
+  padding: var(--dd-space-lg);
+}
+
+.feed-card {
+  display: flex;
+  flex-direction: row;
+  background: var(--color-surface);
+  border-radius: var(--radius-m);
+  box-shadow: var(--shadow-1);
+  padding: var(--dd-space-md);
+  gap: var(--dd-space-md);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.feed-card:active {
+  transform: scale(0.97);
+  box-shadow: var(--shadow-2);
+}
+
+.feed-thumb {
+  width: var(--dd-space-2xl);
+  height: var(--dd-space-2xl);
+  border-radius: var(--radius-s);
+  object-fit: cover;
+}
+
+.feed-thumb-skeleton {
+  width: var(--dd-space-2xl);
+  height: var(--dd-space-2xl);
+  border-radius: var(--radius-s);
+  background: var(--color-skeleton);
+}
+
+.feed-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feed-info h3 {
+  margin: 0;
+  font-size: var(--font-size-m);
+  line-height: var(--line-height-s);
+  color: var(--color-text-primary);
+}
+
+.feed-status {
+  margin-top: var(--dd-space-xs);
+  font-size: var(--font-size-s);
+  color: var(--color-text-secondary);
+}

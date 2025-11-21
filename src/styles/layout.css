@@ -1,0 +1,5 @@
+/* C-25.4 migrated with global tokens */
+/* Layout */
+.page-wrapper {
+  padding:var(--dd-space-lg);
+}

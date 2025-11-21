@@ -1,0 +1,32 @@
+/* C-25.4 migrated with global tokens */
+/* C-16.3 Comment System */
+
+.comment-section {
+  margin-top:var(--dd-space-lg);
+}
+
+#comment-input {
+  width:100%;
+  height:var(--dd-space-2xl);
+  border-radius:var(--radius-m);
+  border:var(--dd-space-2xs) solid var(--color-border);
+  padding:var(--dd-space-sm);
+  margin-top:var(--dd-space-sm);
+}
+
+.comment-submit-btn {
+  margin-top:var(--dd-space-sm);
+  width:100%;
+  padding:var(--dd-space-sm);
+  background:var(--color-accent);
+  color:white;
+  border-radius:var(--radius-m);
+  border:none;
+}
+
+.comment-item {
+  padding:var(--dd-space-sm);
+  background:var(--color-surface);
+  margin-bottom:var(--dd-space-xs);
+  border-radius:var(--radius-s);
+}

@@ -1,0 +1,15 @@
+/* C-25.4 migrated with global tokens */
+/* C-15.4 Bulk Actions */
+
+.bulk-panel {
+  display:flex;
+  flex-direction:column;
+  gap:var(--dd-space-sm);
+  padding:var(--dd-space-md);
+  background:var(--color-surface);
+  border-radius:var(--radius-m);
+}
+
+.bulk-check {
+  margin-right:var(--dd-space-sm);
+}

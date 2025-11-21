@@ -1,0 +1,24 @@
+/* C-25.4 migrated with global tokens */
+
+/* C-15.6 Soft Glow Highlight (Theme-Aware) */
+
+.dream-card.selected {
+  position: relative;
+  z-index: 2;
+  transform: scale(1.015);
+  transition: all 0.18s ease-out;
+  box-shadow:
+    0 0 var(--dd-space-sm) var(--bulk-glow-color),
+    0 0 var(--dd-space-lg) var(--bulk-glow-color),
+    0 0 var(--dd-space-2xl) var(--bulk-glow-color);
+}
+
+/* Light Theme */
+:root[data-theme="light"] {
+  --bulk-glow-color: rgba(100, 80, 255, 0.45);
+}
+
+/* Dark Theme */
+:root[data-theme="dark"] {
+  --bulk-glow-color: rgba(180, 160, 255, 0.55);
+}

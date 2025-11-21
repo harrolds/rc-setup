@@ -1,0 +1,23 @@
+/* C-25.4 migrated with global tokens */
+/* C-12.4 Update Banner */
+
+.update-banner {
+  display: none;
+  width: 100%;
+  padding: var(--dd-space-md) var(--dd-space-lg);
+  background: #3498db;
+  color: white;
+  font-size: var(--font-size-m);
+  border-radius: var(--radius-m);
+  margin: var(--dd-space-md) 0;
+  text-align: center;
+}
+
+.update-btn {
+  margin-top: var(--dd-space-sm);
+  padding: var(--dd-space-sm) var(--dd-space-lg);
+  background: var(--color-accent);
+  border: none;
+  border-radius: var(--radius-s);
+  color: white;
+}

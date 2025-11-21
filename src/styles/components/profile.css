@@ -1,0 +1,29 @@
+/* C-25.4 migrated with global tokens */
+/* C-17.0 Profile Page */
+
+.profile-page {
+  padding:var(--dd-space-lg);
+}
+
+.profile-block {
+  margin-top:var(--dd-space-md);
+  padding:var(--dd-space-md);
+  background:var(--color-surface);
+  border-radius:var(--radius-m);
+}
+
+.profile-row {
+  margin-bottom:var(--dd-space-sm);
+  word-break:break-all;
+}
+
+.profile-btn {
+  margin-top:var(--dd-space-md);
+  width:100%;
+  padding:var(--dd-space-md);
+  background:var(--color-accent);
+  border:none;
+  border-radius:var(--radius-m);
+  color:white;
+  font-size:var(--dd-space-lg);
+}

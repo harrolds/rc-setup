@@ -1,0 +1,8 @@
+/* C-25.4 migrated with global tokens */
+/* C-15.7 Gesture Assist Styles */
+
+.dream-card:active {
+  opacity: 0.85;
+  transform: scale(0.99);
+  transition: transform 0.05s;
+}

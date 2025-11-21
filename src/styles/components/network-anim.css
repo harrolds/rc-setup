@@ -1,0 +1,13 @@
+/* C-25.4 migrated with global tokens */
+/* C-12.5 Network Banner Animations */
+
+.network-banner {
+  transition: opacity var(--transition-normal), transform var(--transition-normal);
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.network-banner.hidden {
+  opacity: 0;
+  transform: translateY(-10px);
+}

@@ -1,0 +1,51 @@
+/* C-25.4 migrated with global tokens */
+/* C-11.1 Tokens – Light/Dark Themes */
+
+/* Base tokens */
+:root {
+  --radius-s: var(--dd-space-xs);
+  --radius-m: var(--dd-space-md);
+  --radius-l: var(--dd-space-lg);
+
+  --shadow-1: 0 var(--dd-space-2xs) var(--dd-space-2xs) rgba(0,0,0,0.08);
+  --shadow-2: 0 var(--dd-space-xs) var(--dd-space-md) rgba(0,0,0,0.12);
+  --shadow-3: 0 var(--dd-space-sm) var(--dd-space-xl) rgba(0,0,0,0.16);
+
+  --transition-fast: 120ms ease-out;
+  --transition-normal: 200ms ease;
+  --transition-slow: 300ms ease;
+
+  --font-size-xs: var(--dd-space-md);
+  --font-size-s: var(--dd-space-md);
+  --font-size-m: var(--dd-space-lg);
+  --font-size-l: var(--dd-space-lg);
+  --font-size-xl: var(--dd-space-xl);
+
+  --line-height-s: 1.3;
+  --line-height-m: 1.45;
+  --line-height-l: 1.6;
+}
+
+/* White Whisper */
+:root[data-theme="light"] {
+  --color-bg: #fafafa;
+  --color-surface: var(--dd-color-white);
+  --color-surface-alt: #f3f5f7;
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #555;
+  --color-accent: #4a7bff;
+  --color-border: #e2e4e8;
+  --color-skeleton: #e9ebef;
+}
+
+/* Nocturne Focus */
+:root[data-theme="dark"] {
+  --color-bg: #0a0c10;
+  --color-surface: #12141a;
+  --color-surface-alt: #1b1e25;
+  --color-text-primary: #e8e8e8;
+  --color-text-secondary: #a0a4ac;
+  --color-accent: #6d9dff;
+  --color-border: #2a2d35;
+  --color-skeleton: #2f323a;
+}
